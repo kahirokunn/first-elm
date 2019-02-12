@@ -1,4 +1,5 @@
 import Html exposing (..)
 
-main =
-    text "Hello world!"
+add a b = a + b
+
+main = text (String.fromInt (add 5 2))
